@@ -1,102 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Fly El — тестирование радиокомпонентов</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fly El — электронные приборы и измерения</title>
+    <meta name="description" content="Fly El: электронные приборы, измерения, тестирование радиокомпонентов, проекты и лабораторные заметки.">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="site-header">
-        <div class="top-line">
-            <a class="logo-link" href="index.html" aria-label="Fly El — главная">
-    <img class="site-logo" src="img/eng-logo-fly-el-site.png" alt="Fly El Electronic Instruments">
-</a>
-
-            <nav class="main-nav">
-                <a href="index.html">Главная</a>
-                <a href="#services">Услуги</a>
-                <a href="#testing">Тестирование</a>
-                <a href="#contacts">Контакты</a>
+    <div class="page">
+        <header>
+            <div class="top-title">
+                <div>Fly El</div>
+                <div class="tagline">electronic instruments / lab notes</div>
+            </div>
+            <nav class="nav" aria-label="Основная навигация">
+                [<a class="current" href="index.html">Главная</a>]
+                [<a class="" href="pages/about.html">О проекте</a>]
+                [<a class="" href="pages/components.html">Тестирование</a>]
+                [<a class="" href="pages/projects.html">Проекты</a>]
+                [<a class="" href="pages/articles.html">Статьи</a>]
+                [<a class="" href="pages/archive.html">Архив</a>]
+                [<a class="" href="pages/contacts.html">Контакты</a>]
             </nav>
-        </div>
-    </header>
+        </header>
+        <main>
+            <div class="bar">Главная</div>
 
-    <main>
-        <section class="hero">
-            <div class="hero-inner">
-                <h1>Тестирование радиокомпонентов и электронных узлов</h1>
+            <section class="hero-logo" aria-label="Логотип Fly El">
+                <img src="assets/img/fly-el-logo-rus.png" alt="Fly El — электронные приборы">
+                <div class="hero-note">электронные приборы · измерения · тестирование компонентов</div>
+            </section>
 
-                <p>
-                    Fly El — технический проект для измерений, проверки,
-                    подбора и анализа радиокомпонентов. Здесь будут собраны
-                    услуги, примеры тестов, измерительные отчёты и материалы
-                    по электронике.
+            <section class="section">
+                <h1>Что это?</h1>
+                <p class="lead indent">
+                    Это заготовка главной страницы для сайта Fly El: аккуратное место для технических материалов,
+                    проектов, заметок по измерениям и отдельного раздела по тестированию радиокомпонентов.
+                    Стиль сделан с оглядкой на простую структуру лабораторного сайта, но цвет, графика и характер
+                    привязаны к эмблеме Fly El.
                 </p>
+                <p class="indent">
+                    На сайте можно размещать описания приборов, фотографии макетов, схемы, платы, прошивки,
+                    таблицы измерений, методики проверки и практические выводы. Реальные факты, названия устройств
+                    и контакты здесь пока не указаны — это шаблон под дальнейшее наполнение.
+                </p>
+            </section>
 
-                <a class="button" href="#testing">Смотреть направление</a>
-            </div>
-        </section>
-
-        <section class="section" id="services">
-            <div class="section-inner">
-                <h2>Направления</h2>
-
-                <div class="cards">
-                    <article class="card">
-                        <h3>Радиокомпоненты</h3>
-                        <p>
-                            Проверка конденсаторов, катушек, резисторов,
-                            фильтров, резонаторов и других компонентов.
+            <section class="section">
+                <h2>Новости</h2>
+                <div class="news-layout">
+                    <div>
+                        <p class="indent">
+                            Первый крупный раздел сайта — тестирование радиокомпонентов. В нём удобно собирать
+                            результаты проверки конденсаторов, диодов, транзисторов, стабилитронов, индуктивностей
+                            и других деталей.
                         </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Измерения</h3>
-                        <p>
-                            Измерение параметров, сравнение образцов,
-                            поиск отклонений и подготовка кратких отчётов.
+                        <p class="indent">
+                            Для каждой публикации можно делать одинаковую структуру: цель проверки, оборудование,
+                            схема включения, условия измерения, таблица результатов, фотографии и вывод.
                         </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Электронные узлы</h3>
-                        <p>
-                            Первичная проверка плат, модулей и небольших
-                            электронных устройств.
-                        </p>
-                    </article>
+                        <p><a href="pages/components.html">Перейти в раздел тестирования...</a></p>
+                    </div>
+                    <div class="lab-panel" aria-label="Декоративная лабораторная панель">
+                        <div class="lab-panel-title">Component test bench</div>
+                        <div class="lab-panel-table">
+                            <span>ESR</span>
+                            <span>Vf</span>
+                            <span>hFE</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="section" id="testing">
-            <div class="section-inner">
-                <h2>Тестирование радиокомпонентов</h2>
+            <section class="section">
+                <h2>Разделы сайта</h2>
 
-                <p>
-                    Этот раздел будет посвящён практическим измерениям:
-                    частотным характеристикам, добротности, ёмкости,
-                    индуктивности, сопротивлению, потерям и стабильности.
-                </p>
-            </div>
-        </section>
+                <div class="category-title">Измерения и тестирование</div>
+                <ul class="link-list">
+                    <li><a href="pages/components.html">Тестирование радиокомпонентов</a></li>
+                    <li><a href="pages/components.html#method">Методики измерений и оформление результатов</a></li>
+                    <li><a href="pages/components.html#equipment">Оборудование и испытательные стенды</a></li>
+                </ul>
 
-        <section class="section" id="contacts">
-            <div class="section-inner">
-                <h2>Контакты</h2>
+                <div class="category-title">Проекты</div>
+                <ul class="link-list">
+                    <li><a href="pages/projects.html">Электронные приборы и модули</a></li>
+                    <li><a href="pages/projects.html">Измерительные устройства</a></li>
+                    <li><a href="pages/projects.html">Микроконтроллерные разработки</a></li>
+                </ul>
 
-                <p>
-                    Здесь позже можно разместить e-mail, форму связи,
-                    Telegram, телефон или ссылку на GitHub.
-                </p>
-            </div>
-        </section>
-    </main>
+                <div class="category-title">Статьи</div>
+                <ul class="link-list">
+                    <li><a href="pages/articles.html">Заметки по радиотехнике</a></li>
+                    <li><a href="pages/articles.html">Практика измерений</a></li>
+                    <li><a href="pages/articles.html">Разбор схем и решений</a></li>
+                </ul>
 
-    <footer class="site-footer">
-        © Fly El
-    </footer>
+                <div class="category-title">Архив</div>
+                <ul class="link-list">
+                    <li><a href="pages/archive.html">Файлы, схемы, фотографии и старые материалы</a></li>
+                </ul>
+            </section>
+        </main>
+        <div class="footer-line"></div>
+        <div class="footer-badge">Fly El — измерения, схемы, компоненты</div>
+        <footer>
+            <div class="bar">Главная</div>
+            <nav class="nav" aria-label="Основная навигация">
+                [<a class="current" href="index.html">Главная</a>]
+                [<a class="" href="pages/about.html">О проекте</a>]
+                [<a class="" href="pages/components.html">Тестирование</a>]
+                [<a class="" href="pages/projects.html">Проекты</a>]
+                [<a class="" href="pages/articles.html">Статьи</a>]
+                [<a class="" href="pages/archive.html">Архив</a>]
+                [<a class="" href="pages/contacts.html">Контакты</a>]
+            </nav>
+            <div class="footer-copy">© Fly El. Статический сайт на HTML/CSS. Тексты и материалы можно заменить на реальные публикации.</div>
+        </footer>
+    </div>
 </body>
 </html>
