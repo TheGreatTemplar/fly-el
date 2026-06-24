@@ -7,8 +7,8 @@ body
 {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #101318;
-    color: #e8eef7;
+    background: #1a2330;
+    color: #eef4fb;
 }
 
 a
@@ -20,8 +20,8 @@ a
 .site-header
 {
     padding: 24px 40px;
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
+    background: #202b39;
+    border-bottom: 1px solid #3c4c60;
 }
 
 .top-line
@@ -59,7 +59,7 @@ a
 .hero
 {
     padding: 80px 40px;
-    background: radial-gradient(circle at top left, #263346, #101318 55%);
+    background: radial-gradient(circle at top left, #3a5374, #1a2330 58%);
 }
 
 .hero-inner
@@ -79,7 +79,7 @@ a
     max-width: 700px;
     font-size: 20px;
     line-height: 1.5;
-    color: #c8d2df;
+    color: #d7e1ed;
 }
 
 .button
@@ -113,8 +113,8 @@ a
 .card
 {
     padding: 24px;
-    background: #1c222b;
-    border: 1px solid #30363d;
+    background: #243140;
+    border: 1px solid #425469;
     border-radius: 16px;
 }
 
@@ -125,16 +125,16 @@ a
 
 .card p
 {
-    color: #c8d2df;
+    color: #dbe5f0;
     line-height: 1.5;
 }
 
 .site-footer
 {
     padding: 32px 40px;
-    background: #0b0e12;
-    color: #8b98a8;
-    border-top: 1px solid #30363d;
+    background: #18212c;
+    color: #aab8c8;
+    border-top: 1px solid #3c4c60;
 }
 
 .logo-link
@@ -142,13 +142,18 @@ a
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .site-logo
 {
     display: block;
-    width: 260px;
+    width: 320px;
     height: auto;
+    filter: brightness(1.22) contrast(1.08) saturate(1.08)
+            drop-shadow(0 0 10px rgba(80, 170, 255, 0.18));
 }
 
 @media (max-width: 800px)
@@ -176,6 +181,6 @@ a
 
     .site-logo
     {
-        width: 220px;
+        width: 240px;
     }
 }
