@@ -104,7 +104,7 @@ a:focus {
 .hero-logo img {
     display: block;
     width: min(820px, 92%);
-    height: 250px;
+    height: 210px;
     object-fit: cover;
     object-position: center;
     margin: 0 auto;
