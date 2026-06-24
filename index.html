@@ -2,69 +2,99 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Fly El</title>
+    <title>Fly El — тестирование радиокомпонентов</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body
-        {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #101318;
-            color: #e8eef7;
-        }
-
-        header
-        {
-            padding: 40px;
-            background: #161b22;
-            border-bottom: 1px solid #30363d;
-        }
-
-        h1
-        {
-            margin: 0;
-            font-size: 42px;
-        }
-
-        main
-        {
-            padding: 40px;
-            max-width: 900px;
-        }
-
-        .card
-        {
-            padding: 24px;
-            margin-top: 24px;
-            background: #1c222b;
-            border: 1px solid #30363d;
-            border-radius: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Fly El</h1>
-        <p>Тестирование радиокомпонентов и электронных узлов</p>
+    <header class="site-header">
+        <div class="top-line">
+            <div class="logo">Fly El</div>
+
+            <nav class="main-nav">
+                <a href="index.html">Главная</a>
+                <a href="#services">Услуги</a>
+                <a href="#testing">Тестирование</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class="card">
-            <h2>О проекте</h2>
-            <p>
-                Fly El — технический сайт, посвящённый электронике,
-                измерениям и проверке радиокомпонентов.
-            </p>
-        </div>
+        <section class="hero">
+            <div class="hero-inner">
+                <h1>Тестирование радиокомпонентов и электронных узлов</h1>
 
-        <div class="card">
-            <h2>Тестирование радиокомпонентов</h2>
-            <p>
-                Здесь будут описания измерений, проверка фильтров,
-                конденсаторов, катушек, ВЧ-компонентов и других деталей.
-            </p>
-        </div>
+                <p>
+                    Fly El — технический проект для измерений, проверки,
+                    подбора и анализа радиокомпонентов. Здесь будут собраны
+                    услуги, примеры тестов, измерительные отчёты и материалы
+                    по электронике.
+                </p>
+
+                <a class="button" href="#testing">Смотреть направление</a>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-inner">
+                <h2>Направления</h2>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>Радиокомпоненты</h3>
+                        <p>
+                            Проверка конденсаторов, катушек, резисторов,
+                            фильтров, резонаторов и других компонентов.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Измерения</h3>
+                        <p>
+                            Измерение параметров, сравнение образцов,
+                            поиск отклонений и подготовка кратких отчётов.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Электронные узлы</h3>
+                        <p>
+                            Первичная проверка плат, модулей и небольших
+                            электронных устройств.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="testing">
+            <div class="section-inner">
+                <h2>Тестирование радиокомпонентов</h2>
+
+                <p>
+                    Этот раздел будет посвящён практическим измерениям:
+                    частотным характеристикам, добротности, ёмкости,
+                    индуктивности, сопротивлению, потерям и стабильности.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="contacts">
+            <div class="section-inner">
+                <h2>Контакты</h2>
+
+                <p>
+                    Здесь позже можно разместить e-mail, форму связи,
+                    Telegram, телефон или ссылку на GitHub.
+                </p>
+            </div>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        © Fly El
+    </footer>
 </body>
 </html>
