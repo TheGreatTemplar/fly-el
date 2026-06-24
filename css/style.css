@@ -92,18 +92,21 @@ a:focus {
 }
 
 .hero-logo {
-    padding: 14px 0 24px;
+    padding: 10px 0 14px;
     text-align: center;
     background:
         linear-gradient(90deg, rgba(0,87,184,0.08), rgba(255,255,255,0) 22%, rgba(255,255,255,0) 78%, rgba(0,87,184,0.08)),
         #fff;
     border: 1px solid #e1e5ea;
+    overflow: hidden;
 }
 
 .hero-logo img {
     display: block;
     width: min(820px, 92%);
-    height: auto;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
     margin: 0 auto;
 }
 
