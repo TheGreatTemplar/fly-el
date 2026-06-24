@@ -137,6 +137,20 @@ a
     border-top: 1px solid #30363d;
 }
 
+.logo-link
+{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.site-logo
+{
+    display: block;
+    width: 260px;
+    height: auto;
+}
+
 @media (max-width: 800px)
 {
     .top-line
@@ -158,5 +172,10 @@ a
     .cards
     {
         grid-template-columns: 1fr;
+    }
+
+    .site-logo
+    {
+        width: 220px;
     }
 }
