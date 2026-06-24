@@ -47,8 +47,8 @@ a
     display: block;
     width: 320px;
     height: auto;
-    filter: brightness(1.22) contrast(1.08) saturate(1.08)
-            drop-shadow(0 0 10px rgba(80, 170, 255, 0.18));
+    filter: brightness(1.32) contrast(1.10) saturate(1.10)
+        drop-shadow(0 0 12px rgba(90, 180, 255, 0.24));
 }
 
 .main-nav
