@@ -384,7 +384,7 @@ p {
 
     .hero-logo img {
         width: 92%;
-        height: clamp(125px, 36vw, 165px);
+        height: 165px;
         object-fit: cover;
         object-position: center;
     }
