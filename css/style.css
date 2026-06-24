@@ -378,6 +378,17 @@ p {
         line-height: 1.8;
     }
 
+    .hero-logo {
+        padding: 6px 0 10px;
+    }
+
+    .hero-logo img {
+        width: 92%;
+        height: clamp(125px, 36vw, 165px);
+        object-fit: cover;
+        object-position: center;
+    }
+
     .section {
         padding: 14px 12px 2px;
     }
@@ -386,6 +397,11 @@ p {
     .lead,
     .link-list {
         font-size: 17px;
+    }
+
+    .lead[lang="ja"] {
+        font-size: 18px;
+        line-height: 1.65;
     }
 
     h1,
