@@ -1,0 +1,48 @@
+.hero-logo img
+{
+    display: block;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.site-logo-ru
+{
+    width: min(900px, 94%);
+}
+
+.site-logo-en
+{
+    width: min(980px, 96%);
+}
+
+.site-logo-ja
+{
+    width: min(940px, 95%);
+}
+
+@media (max-width: 820px)
+{
+    .hero-logo img
+    {
+        height: 110px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .site-logo-ru
+    {
+        width: 94%;
+    }
+
+    .site-logo-en
+    {
+        width: 96%;
+    }
+
+    .site-logo-ja
+    {
+        width: 95%;
+    }
+}
